@@ -12,6 +12,7 @@
 
 .row:before .row:after{
 	content: "";
+	height: auto;
 	display: table;
 	clear: both; /*limpiar el float de las columnas*/
 }

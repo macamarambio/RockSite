@@ -1,8 +1,62 @@
-nav {
+/*TEXT STYLE*/
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 100px;
+}
+
+h3{
+	font-size: 50px;
+}
+
+/*ESTILOS PAGINA*/
+
+/*NAVEGADOR*/
+nav{
 	background-color: #343A40;
-	padding: 10px;
+	padding: 5px 0;
+	height: 50px;
 }
 nav a{
 	text-decoration: none;
-	/*color: #FFF;*/
+	color: #FFF;
 }
+
+/*SECCION CONTENIDO*/
+.content{
+	background-image: url(../img/header.jpg);
+	background-size: cover;
+	filter: brightness(0.4);
+	height: 650px;
+	padding: 18% 0;
+	text-align: center;
+}
+
+.content-text{
+	z-index:100;
+	color: #FFF;
+	filter: none;
+}
+
+.section-img{
+	margin-top: 1%;
+	margin-bottom: 5%;
+	height: 350px;
+}
+.imgRock{
+	border-radius: 50%;
+	height: 300px;
+	width: auto;
+	vertical-align: middle;
+}
+
+footer {
+	background-color: #343A40;
+	padding: 5px 0;
+	text-align: center;
+	color: #FFF;
+}
+
+
